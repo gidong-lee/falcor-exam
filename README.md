@@ -1,4 +1,4 @@
-#Netflix Falcor Route 및 Client Sample
+# Netflix Falcor Route 및 Client Sample
 Falcor는 효율적인 데이터 가져 오기를위한 JavaScript 라이브러리다
 
 Netflix falcor는 GraphQL + realy개발 스택과 많이 비교된다.
@@ -37,7 +37,7 @@ Overfetch를 방지한다.
 - Router를 이용하여 한땀한땀 DataSource 구현
 
 
-###샘플설명
+### 샘플설명
 해당 샘플은 아래 여러종류로 구성이 되어 있다.
 따라서 호출에 따라서 여러가지로 처리되는 것을 확인해 볼수 있다.
 
@@ -66,7 +66,7 @@ End Point 제공 : express(productList.json 등)
 
 
 
-##샘플 설치 방법
+## 샘플 설치 방법
 ```
 # node는 알아서 설치해주세요. https://nodejs.org/
 # async await때문에 7버전이상 필요.
@@ -80,7 +80,7 @@ End Point 제공 : express(productList.json 등)
 ```
 
 
-##샘플 실행 방법
+## 샘플 실행 방법
 ```
 # express 서버 (port : 8000)
 > nodemon composite.js 
