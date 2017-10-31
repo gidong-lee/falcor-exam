@@ -38,7 +38,7 @@
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="30">
-                  <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+                  <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
@@ -138,8 +138,8 @@
                 <entry file="file://$PROJECT_DIR$/README.md">
                   <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                     <state split_layout="SPLIT">
-                      <first_editor relative-caret-position="671">
-                        <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+                      <first_editor relative-caret-position="660">
+                        <caret line="44" column="26" lean-forward="false" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
                         <folding>
                           <marker date="1509442266000" expanded="true" signature="232:238" ph="{...}" />
                           <marker date="1509442266000" expanded="true" signature="232:635" ph="{...}" />
@@ -212,9 +212,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="-1417" />
@@ -407,12 +404,12 @@
       <workItem from="1507877311830" duration="7969000" />
       <workItem from="1508306544807" duration="46902000" />
       <workItem from="1509329100773" duration="7764000" />
-      <workItem from="1509425192382" duration="10710000" />
+      <workItem from="1509425192382" duration="10820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73345000" />
+    <option name="totallyTimeSpent" value="73455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1417" width="2560" height="1417" extended-state="0" />
@@ -683,25 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="671">
-            <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-            <folding>
-              <marker date="1509442266000" expanded="true" signature="232:238" ph="{...}" />
-              <marker date="1509442266000" expanded="true" signature="232:635" ph="{...}" />
-              <marker date="1509442266000" expanded="true" signature="251:515" ph="[...]" />
-              <marker date="1509442266000" expanded="true" signature="260:378" ph="{&quot;id&quot;: 100...}" />
-              <marker date="1509442266000" expanded="true" signature="387:508" ph="{&quot;id&quot;: 200...}" />
-              <marker date="1509442266000" expanded="true" signature="534:632" ph="{...}" />
-              <marker date="1509442266000" expanded="true" signature="552:625" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="766">
@@ -742,10 +720,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="660">
+            <caret line="44" column="26" lean-forward="false" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+            <folding>
+              <marker date="1509442266000" expanded="true" signature="232:238" ph="{...}" />
+              <marker date="1509442266000" expanded="true" signature="232:635" ph="{...}" />
+              <marker date="1509442266000" expanded="true" signature="251:515" ph="[...]" />
+              <marker date="1509442266000" expanded="true" signature="260:378" ph="{&quot;id&quot;: 100...}" />
+              <marker date="1509442266000" expanded="true" signature="387:508" ph="{&quot;id&quot;: 200...}" />
+              <marker date="1509442266000" expanded="true" signature="534:632" ph="{...}" />
+              <marker date="1509442266000" expanded="true" signature="552:625" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           <folding />
         </state>
       </provider>

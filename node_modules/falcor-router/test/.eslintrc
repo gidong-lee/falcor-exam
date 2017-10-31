@@ -1,9 +1,0 @@
-{
-    "env": {
-        "mocha": true
-    },
-    "rules": {
-        "max-len": [2, 200],
-        "no-unused-expressions": 0
-    }
-}
