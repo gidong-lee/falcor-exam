@@ -1,0 +1,36 @@
+{
+  "productList": [
+    {
+      "id": 100,
+      "name": "생수",
+      "sellerId": 10000
+    },
+    {
+      "id": 200,
+      "name": "맥스 커피",
+      "sellerId": 10000
+    },
+    {
+      "id": 300,
+      "name": "녹차",
+      "sellerId": 20000
+    },
+    {
+      "id": 400,
+      "name": "홍차",
+      "sellerId": 20000
+    }
+  ],
+  "sellerList": [
+    {
+      "id": 10000,
+      "name": "물장수",
+      "like": false
+    },
+    {
+      "id": 20000,
+      "name": "커피장수",
+      "like": false
+    }
+  ]
+}

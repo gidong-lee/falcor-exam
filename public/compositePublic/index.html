@@ -1,0 +1,41 @@
+<!-- index.html -->
+<html>
+<head>
+</head>
+<body>
+<h1>Composite Client</h1>
+<h3>
+  <pre>
+데이타 캐싱이 일어나는 곳 : express 서버내 falcor.Model
+
+데이타 Composite 위치 : Falcor Server 또는 express에서도 가능.
+
+End Point 제공 : express(productList.json, /productList2.json)
+  </pre>
+</h3>
+<div id="txt"></div>
+<script>
+  const print = (res) => {
+    const obj = !!res && !!res.json ? res.json : res;
+    document.getElementById("txt").innerHTML = JSON.stringify(obj, null, 4).replace(/ /gi, "&nbsp;").replace(/\n/gi, "<br>");
+  }
+
+
+  const compositeServer = 'http://localhost:8000'
+  window.fetch(`${compositeServer}/productList.json`).then(function (res) {
+    res.json().then(function (data) {
+      print(data);
+    });
+  });
+
+  setTimeout(() => {
+    window.fetch(`${compositeServer}/productList2.json`).then(function (res) {
+      res.json().then(function (data) {
+        print(data);
+      });
+    });
+  }, 3000);
+
+</script>
+</body>
+</html>

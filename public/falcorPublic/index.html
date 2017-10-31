@@ -1,0 +1,39 @@
+<!-- index.html -->
+<html>
+<head>
+  <!-- Do _not_  rely on this URL in production. Use only during development.  -->
+  <script src="//netflix.github.io/falcor/build/falcor.browser.min.js"></script>
+</head>
+<body>
+<h1>Falcor Client(Falcor Router를 이용한 DataSource 구현)</h1>
+<h3>
+  <pre>
+데이타 캐싱이 일어나는 곳 : FE, 브라우저
+
+데이타 Composite 위치 : Falcor Server
+
+End Point 제공 : Falcor Server (model.json)
+  </pre>
+</h3>
+<div id="txt"></div>
+<script>
+  const print = (res) => {
+    const obj = !!res && !!res.json ? res.json : res;
+    document.getElementById("txt").innerHTML = JSON.stringify(obj, null, 4).replace(/ /gi, "&nbsp;").replace(/\n/gi, "<br>");
+  }
+
+  var model = new falcor.Model({
+    source: new falcor.HttpDataSource('./model.json')
+  })
+  model.get('productList[0..1]["name", "id","sellerId", "seller"]["name", "like"]').then(function (res) {
+    print(res)
+  });
+
+  setTimeout(function () {
+    model.get('productList[0..3]["name", "id","sellerId", "seller"]["name", "like"]').then(function (res) {
+      print(res)
+    });
+  }, 3000);
+</script>
+</body>
+</html>
